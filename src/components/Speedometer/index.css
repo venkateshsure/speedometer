@@ -1,0 +1,46 @@
+/* Write your CSS here */
+
+.container {
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.inner-con {
+  width: 80%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-con {
+  width: 300px;
+  height: 100px;
+}
+.but-con {
+  display: flex;
+  justify-content: space-around;
+}
+
+.but1 {
+  background-color: #0b69ff;
+  border: 1px solid #0b69ff;
+  color: #ffffff;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
+
+.but2 {
+  border: 1px solid #94a3b8;
+  color: #cbd5e1;
+  background-color: transparent;
+  border-radius: 3px;
+  cursor: grab;
+  outline: none;
+}
